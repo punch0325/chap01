@@ -6,15 +6,21 @@ public class Hello{
 		System.out.println("\033[31m");
 		System.out.println("\033[44m");
 		
-		System.out.print("\033[10:20H");
-		System.out.println("Hello World!");
+		System.out.print("\033[10;20H");
+		System.out.println("Hello Java!");
 		
 		System.out.println("\033[34m");
 		System.out.println("\033[41m");
 		
-		System.out.print("\033[5:10H");
-		System.out.println("Hello Java!");
+		System.out.print("\033[5;10H");
+		System.out.println("Hello Javascript!");
 		
+		System.out.print("\033[15;40H");
+		System.out.println("Hello Sql!");
+
+		System.out.print("\033[20;0H");
+		System.out.println("Hello Html!");
+
 		System.out.println("\033[0m");
 		
 
